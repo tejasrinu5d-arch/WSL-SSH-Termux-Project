@@ -11,17 +11,9 @@ Establish SSH connectivity from Android Termux to Ubuntu running inside WSL2.
 - Android Termux
 - SSH
 
-## Architecture
+## Architecture Diagram
 
-Android Phone (Termux)
-        |
-        | SSH Port 22
-        v
-Windows Laptop
-        |
-        | Port Forwarding
-        v
-Ubuntu WSL2
+![Architecture Diagram](architecture-diagram.png)
 
 ## Commands Used
 
